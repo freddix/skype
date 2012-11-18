@@ -1,0 +1,16 @@
+diff -aurN skype-4.1.0.20.orig/skype.desktop skype-4.1.0.20/skype.desktop
+--- skype-4.1.0.20.orig/skype.desktop	2012-11-16 15:25:16.623301394 +0100
++++ skype-4.1.0.20/skype.desktop	2012-11-16 15:26:59.328100921 +0100
+@@ -2,10 +2,9 @@
+ Name=Skype
+ Comment=Skype Internet Telephony
+ Exec=skype %U
+-Icon=skype.png
++Icon=skype
+ Terminal=false
+ Type=Application
+-Encoding=UTF-8
+-Categories=Network;Application;
++Categories=Qt;Network;InstantMessaging;
+ MimeType=x-scheme-handler/skype;
+ X-KDE-Protocols=skype
