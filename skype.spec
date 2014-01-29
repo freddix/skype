@@ -1,11 +1,11 @@
 Summary:	p2p VoIP application
 Name:		skype
-Version:	4.2.0.11
+Version:	4.2.0.13
 Release:	1
 License:	Commercial, redistributable (see LICENSE)
 Group:		Applications/Communications
 Source0:	http://download.skype.com/linux/%{name}-%{version}.tar.bz2
-# Source0-md5:	6e9553a6368853c647b1c5ad7f3cc99b
+# Source0-md5:	b4d1dcc5290be92225b400ea877db874
 Patch0:		%{name}-desktop.patch
 URL:		http://www.skype.com/
 Requires:	xdg-utils

@@ -4,7 +4,7 @@ diff -aurN skype-4.1.0.20.orig/skype.desktop skype-4.1.0.20/skype.desktop
 @@ -2,10 +2,9 @@
  Name=Skype
  Comment=Skype Internet Telephony
- Exec=skype %U
+ Exec=env PULSE_LATENCY_MSEC=60 skype %U
 -Icon=skype.png
 +Icon=skype
  Terminal=false
